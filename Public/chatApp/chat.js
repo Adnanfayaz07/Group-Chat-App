@@ -196,7 +196,7 @@ function displayMessages(name,message){
     const decodedname = parseJwt(token).userName
     // console.log(dname)
     const p=document.createElement('p')
-    const isImage = message.startsWith('https://expensetrackingapp98.s3.amazonaws.com/')
+    const isImage = message.startsWith('https://expensetrackingapp07dec.s3.amazonaws.com/')
 
     if (isImage) {
         if (name === decodedname) {
