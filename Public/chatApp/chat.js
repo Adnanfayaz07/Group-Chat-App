@@ -21,7 +21,7 @@ const groupName=document.querySelector('#groupName')
 
 const home=document.querySelector('#home')
 home.addEventListener('click',()=>{
-    window.location.href='../chatApp/index.html'
+    window.location.href='../chatApp/chat.html'
 })
 
 
