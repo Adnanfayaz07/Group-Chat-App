@@ -30,8 +30,8 @@ exports.forgotPassword = async (req, res) => {
     const transEmailApi = new sib.TransactionalEmailsApi();
 
     const sender = {
-      email: "tabishmir36@gmail.com",
-      name: "Tabish"
+      email: "adnanfayaz581@gmail.com",
+      name: "ADNAN"
     }
 
     const receiver = [
