@@ -12,7 +12,6 @@ exports.createGroup=async(req,res)=>{
         const  groupName=req.body.groupName
         const group=await user.createGroup({groupName:groupName,createdBy:user.name})
         await group.addUser(user, { through: { isAdmin: true } })
-        // console.log(group)
         res.status(200).json({status:true,message:`Group ${groupName} Created Successfully`,groupDetails:group})
 
     }catch(err){
